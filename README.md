@@ -371,7 +371,7 @@ int main() {
             word[j] = str[i];
             j++;
         } else {
-            // If the character is a space, print the current word and reset for the next word
+            
             word[j] = '\0'; // Null-terminate the word
             printf("%s\n", word);
             j = 0; // Reset the word index
