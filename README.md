@@ -245,9 +245,9 @@ To create a program that calculates and prints the length of a given string.
 #include <string.h>
 
 int main() {
-    char str[100]; // Define a character array to hold the string
+    char str[100]; 
     int length;
-    scanf("%s", str); // Read the string from the user, limiting to 99 characters to leave space for the null terminator
+    scanf("%s", str); 
 
     // Find the length of the string
     length = strlen(str);
